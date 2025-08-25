@@ -33,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 <h2>Tambah Kelas</h2>
 <form method="POST">
     Kelas: <input type="text" name="nama_kelas" required><br><br>
-    Deskripsi: <input type="text" name="deskripsi" required><br><br>
+    Deskripsi: <textarea name="deskripsi" id="" cols="30" rows="10" required></textarea><br><br>
     Kode Kelas: <input type="text" name="kode" required><br><br>
 
     <?php if ($_SESSION['role'] == 'admin'): ?>

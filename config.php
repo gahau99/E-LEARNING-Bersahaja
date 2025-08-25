@@ -1,8 +1,9 @@
 <?php
-$host = "localhost";
-$user = "root";
-$pass = "root";
-$db   = "elearning";
+
+$host = "localhost"; # owh localhost
+$user = "root";      # root user
+$pass = "root";      # root password
+$db   = "elearning"; # db e-learning
 
 $conn = mysqli_connect($host, $user, $pass, $db);
 
