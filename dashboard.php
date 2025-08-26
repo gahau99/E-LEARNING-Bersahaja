@@ -1,7 +1,9 @@
 <?php
+
 session_start();
 if (!isset($_SESSION['id'])) header("Location: index.php");
 ?>
+
 <!doctype html>
 <html>
 <head>

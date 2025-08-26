@@ -23,3 +23,16 @@ Mendukung **3 role utama**: `Admin`, `Guru`, dan `Siswa`.
 - Mengelola **user** (tambah, edit, hapus)
 - Menetapkan guru pada kelas
 - Mengontrol sistem (approve/reject materi)
+
+⚙️ Instalasi
+Clone repo ini:
+```git
+git clone https://github.com/username/e-learning.git
+```
+disesuaikan dengan nama pemilik repository kodenya siapa
+
+Jalankan di browser:
+
+```
+http://localhost/e-learning/
+```

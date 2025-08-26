@@ -48,3 +48,27 @@ e-learning/
     ├── view.php            # Lihat detail tugas
     ├── submit.php          # Siswa submit tugas
     ├── nilai.php           # Guru menilai tugas
+
+
+## 🖥️ Role & Navigasi
+
+```mermaid
+flowchart TD
+    A[Login] -->|Admin| B[Dashboard Admin]
+    A -->|Guru| C[Dashboard Guru]
+    A -->|Siswa| D[Dashboard Siswa]
+
+    B --> U[Kelola User]
+    B --> K[Kelola Kelas]
+    B --> M[Approve/Reject Materi]
+
+    C --> KC[Kelola Kelas]
+    C --> MC[Kelola Materi]
+    C --> TC[Kelola Tugas]
+    C --> NC[Nilai Tugas]
+
+    D --> KG[Gabung Kelas]
+    D --> ML[Lihat Materi]
+    D --> TL[Kumpulkan Tugas]
+    D --> NL[Lihat Nilai]
+```
