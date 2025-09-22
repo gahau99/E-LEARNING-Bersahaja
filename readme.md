@@ -1,38 +1,28 @@
-# 📚 E-Learning PHP Native
+# 📚 Bersahaja - Platform E-Learning Sederhana
 
-Sistem **E-Learning berbasis PHP Native** sederhana untuk kebutuhan sekolah.  
-Mendukung **3 role utama**: `Admin`, `Guru`, dan `Siswa`.
+Bersahaja adalah platform **e-learning berbasis web** yang dibuat menggunakan **PHP Native, MySQL, dan Tailwind CSS**.  
+Proyek ini bertujuan untuk menyediakan sistem pembelajaran sederhana yang memudahkan guru dalam mengelola materi & tugas, serta siswa dalam mengakses dan mengumpulkan tugas.
 
 ---
 
 ## 🚀 Fitur Utama
+- 🔐 **Autentikasi**: Login & Register dengan role `Guru` dan `Siswa`
+- 🏫 **Kelas**: Buat kelas, gabung kelas, lihat daftar kelas
+- 📖 **Materi**: Upload materi, lihat materi, download file
+- 📝 **Tugas**: Guru membuat tugas, siswa mengumpulkan tugas, guru memberikan nilai
+- 💬 **Komentar**: Diskusi pada materi
+- 📱 **Responsif**: Tampilan tabel untuk desktop, card untuk mobile
+- 🎨 **UI/UX**: Menggunakan Tailwind CSS untuk desain modern dan ringan
 
-### 👨‍🏫 Guru
-- Membuat & mengelola **kelas**
-- Menambahkan & mengelola **materi**
-- Membuat **tugas**
-- Memberi **nilai tugas siswa**
+---
 
-### 👩‍🎓 Siswa
-- **Gabung kelas** menggunakan kode kelas
-- Mengakses & membaca **materi**
-- **Mengumpulkan tugas** (upload file)
-- Melihat nilai dari guru
+## 🛠️ Tech Stack
+- **Backend**: PHP Native
+- **Database**: MySQL
+- **Frontend**: HTML, Tailwind CSS
+- **Server**: Apache / Nginx (via  Laragon)
 
-### 👨‍💼 Admin
-- Mengelola **user** (tambah, edit, hapus)
-- Menetapkan guru pada kelas
-- Mengontrol sistem (approve/reject materi)
+---
 
-⚙️ Instalasi
-Clone repo ini:
-```git
-git clone https://github.com/username/e-learning.git
-```
-disesuaikan dengan nama pemilik repository kodenya siapa
-
-Jalankan di browser:
-
-```
-http://localhost/e-learning/
-```
+## 📂 Struktur Folder
+"# E-LEARNING-Bersahaja" 

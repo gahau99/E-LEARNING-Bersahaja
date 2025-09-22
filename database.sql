@@ -58,3 +58,17 @@ CREATE TABLE tugas_siswa (
     FOREIGN KEY (id_tugas) REFERENCES tugas(id) ON DELETE CASCADE,
     FOREIGN KEY (id_siswa) REFERENCES users(id) ON DELETE CASCADE
 );
+
+CREATE TABLE komentar (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    materi_id INT NULL,
+    tugas_id INT NULL,
+    tugas_siswa_id INT NULL,
+    id_user INT NOT NULL,
+    isi TEXT NOT NULL,
+    dibuat_pada TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (id_user) REFERENCES users(id) ON DELETE CASCADE,
+    FOREIGN KEY (materi_id) REFERENCES materi(id) ON DELETE CASCADE,
+    FOREIGN KEY (tugas_id) REFERENCES tugas(id) ON DELETE CASCADE,
+    FOREIGN KEY (tugas_siswa_id) REFERENCES tugas_siswa(id) ON DELETE CASCADE
+);

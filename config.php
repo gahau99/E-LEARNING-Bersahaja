@@ -2,7 +2,7 @@
 
 $host = "localhost"; # owh localhost
 $user = "root";      # root user
-$pass = "root";      # root password
+$pass = "";      # root password
 $db   = "elearning"; # db e-learning
 
 $conn = mysqli_connect($host, $user, $pass, $db);
